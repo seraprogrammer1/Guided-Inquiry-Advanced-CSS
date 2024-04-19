@@ -98,7 +98,7 @@ body {
 
 #productGrid {
     display: grid;
-    grid-template: repeat(2, auto) / repeat(4, 680px);
+    grid-template: repeat(2, auto) / repeat(4, auto);
     grid-template-areas: "P1 P2 P3 P4" "P5 P6 P7 P8";
     margin-bottom: 50px;
 }
