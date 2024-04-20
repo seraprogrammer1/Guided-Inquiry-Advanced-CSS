@@ -14,7 +14,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: lightblue;
 }
@@ -150,7 +149,112 @@ p {
     font-size: small;
     border-top: 4px solid burlywood;
     border-bottom: 4px solid burlywood;
+    flex-grow: 1;
 }
 h4, h5, a {
     text-align: center;
+}
+
+/* Phones */
+@media (min-width: 200px){
+    #flag {
+    height: 323.75px;
+    width: 700px;
+    margin-bottom: 20px;
+    }
+
+    #flag > tbody > tr {
+        height: 31.5px;
+        width: 35px;
+    }
+
+    #productGrid {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 950px){
+    #flag {
+    height: 416.25px;
+    width: 900px;
+    margin-bottom: 25px;
+    }
+
+    #flag > tbody > tr {
+        height: 40.5px;
+        width: 45px;
+    }
+
+    #productGrid {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 850px){
+    #gridHolder {
+        height: 400px;
+        width: 400px;
+        grid-template: repeat(8, 50px) / repeat(8, 50px);
+    } 
+} 
+
+/* Monitor */
+@media (min-width: 1250px){
+    #flag {
+    height: 555px;
+    width: 1200px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 45px;
+        width: 60px;
+    }
+
+    #productGrid {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1250px){
+    #gridHolder {
+        height: 600px;
+        width: 600px;
+        grid-template: repeat(8, 75px) / repeat(8, 75px);
+    } 
+} 
+
+/* Large monitor */
+@media (min-width: 1500px){
+    #flag {
+    height: 693.75px;
+    width: 1500px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 67.5px;
+        width: 75px;
+    }
+
+    #productGrid {
+        margin-bottom: 50px;
+    }
+}
+
+/* Extra large monitor */
+@media (min-width: 2000px){
+    #flag {
+    height: 925px;
+    width: 2000px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 90px;
+        width: 100px;
+    }
+
+    #productGrid {
+        margin-bottom: 50px;
+    }
 }
