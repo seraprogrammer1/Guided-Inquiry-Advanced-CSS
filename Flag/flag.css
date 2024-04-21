@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+#flag {
+    height: 925px;
+    width: 2000px;
+    border-spacing: 0;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#flag > tbody > tr > th > img {
+    width: 99%;
+}
+
+#flag > tbody > tr {
+    height: 90px;
+    width: 100px;
+}
+
+#flag > tbody > tr > th:first-child{
+    width: 45%;
+    background-color: rgb(16,85,165);
+}
+
+.LRed {
+    background-color: red;
+}
+
+/* Phones */
+@media (min-width: 200px){
+    #flag {
+    height: 323.75px;
+    width: 700px;
+    margin-bottom: 20px;
+    }
+
+    #flag > tbody > tr {
+        height: 31.5px;
+        width: 35px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 950px){
+    #flag {
+    height: 416.25px;
+    width: 900px;
+    margin-bottom: 25px;
+    }
+
+    #flag > tbody > tr {
+        height: 40.5px;
+        width: 45px;
+    }
+}
+
+/* Monitor */
+@media (min-width: 1250px){
+    #flag {
+    height: 555px;
+    width: 1200px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 45px;
+        width: 60px;
+    }
+}
+
+/* Large monitor */
+@media (min-width: 1500px){
+    #flag {
+    height: 693.75px;
+    width: 1500px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 67.5px;
+        width: 75px;
+    }
+}
+
+/* Extra large monitor */
+@media (min-width: 2000px){
+    #flag {
+    height: 925px;
+    width: 2000px;
+    margin-bottom: 50px;
+    }
+
+    #flag > tbody > tr {
+        height: 90px;
+        width: 100px;
+    }
+}
