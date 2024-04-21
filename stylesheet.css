@@ -190,13 +190,14 @@ h4, h5, a {
         margin-bottom: 25px;
     }
 }
-@media (max-width: 850px){
+
+/* @media (max-width: 850px){
     #gridHolder {
         height: 400px;
         width: 400px;
         grid-template: repeat(8, 50px) / repeat(8, 50px);
     } 
-} 
+}  */
 
 /* Monitor */
 @media (min-width: 1250px){
@@ -215,13 +216,14 @@ h4, h5, a {
         margin-bottom: 50px;
     }
 }
-@media (max-width: 1250px){
+
+/* @media (max-width: 1250px){
     #gridHolder {
         height: 600px;
         width: 600px;
         grid-template: repeat(8, 75px) / repeat(8, 75px);
     } 
-} 
+}  */
 
 /* Large monitor */
 @media (min-width: 1500px){
